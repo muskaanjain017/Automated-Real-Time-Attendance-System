@@ -1,2 +1,32 @@
 # Automated-Real-Time-Attendance-System
-This project uses Real-time face recognition. The GUI automated the manual process of attendance marking and maintaining statistics. It is built using python.
+This project uses Real-time face recognition. The GUI automated the manual process of attendance marking and maintaining statistics. It is built using python, as heading says the aim is to detect ,recognize and mark attendance by face recognition but the project has a lot more objctives:
+
+1. **Detection**
+2. **Recognition**
+3. **Updating record in Excel**
+4. **Managing students data and faculty data through excel by the help of GUI**
+5. **Notifying students and teachers about attendance statistics via email**
+
+## - **Detection**
+
+_Detection is done by the help of OpenCV and Haar cascades_
+
+_Face detection using Haar cascades is a machine learning based approach where a cascade function is trained with a set of input data. OpenCV already contains many pre-trained classifiers for face, eyes, smiles, etc.. We have used the face classifier. You can experiment with other classifiers as well._
+
+## - **Recognition**
+
+_Recognition is done by LBPH recogniser_
+
+_Local Binary Pattern (LBP) is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number._
+
+_LBPH is one of the easiest face recognition algorithms._
+_It can represent local features in the images._
+_It is possible to get great results (mainly in a controlled environment)._
+_It is robust against monotonic gray scale transformations._
+_It is provided by the OpenCV library (Open Source Computer Vision Library)._
+
+## - **Manage record in Excel files by GUI**
+
+_By the help of gui CRUD operations can be performed in excel files_
+
+
